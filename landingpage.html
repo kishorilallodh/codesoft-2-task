@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Think Learing</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">Courses</a></li>
+
+                <li><a href="#">success stories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>India's trusted education platform</h1>
+            <p>Power ahead in your career with certificate courses & degrees from world class universities.</p>
+            
+        </div>
+        <div class="side2">
+            <img src=
+"kisho.png"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Popular Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA 
+                        </a>
+                    </div>
+                    <p>
+                        Data Science with Python involves
+                         using various libraries and tools 
+                         to analyze and visualize large amounts 
+                         of data, and develop predictive models 
+                         and insights to inform decision-making.
+                    
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HTML
+                        </a>
+                    </div>
+                    <p>
+                        HTML stands for HyperText 
+                        Markup Language. It is used 
+                        to design web pages using 
+                        the markup language.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            JAVA
+                        </a>
+                    </div>
+                    <p>
+                        The object-oriented programming language Java is used to develop software for a range of platforms, including desktop, online, and mobile. It is renowned for its security and cross-platform compatibility.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            PYTHON
+                        </a>
+                    </div>
+                    <p>
+                        Popular high-level programming language Python is renowned for its straightforward syntax and adaptability. It is employed in many different disciplines, including data science, artificial intelligence, and web development.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            CLOUD COMPUTING
+                        </a>
+                    </div>
+                    <p>
+                        Cloud computing is a model for delivering computing resources over the internet, allowing users to access and use software, storage, and processing power without needing to manage the physical infrastructure.
+                    </p>
+                </div>
+
+
+
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Javascript
+                        </a>
+                    </div>
+                    <p>
+                        JavaScript (JS) is the most 
+                        popular lightweight, interpreted 
+                        compiled programming language.
+                        Creating and using functions,
+                         understanding parameters and return values.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- success story -->
+    <section class="success-stories">
+        <h1>Success Stories</h1>
+        <div class="story">
+            <img src="atend.jpg" alt="John's Story">
+            <div class="story-content">
+                <h2>Atendra singh</h2>
+                <p>I was looking for a fully online program due to my full-time job.Since this was my first foray into such a program The faculties were knowledgeable, approachable and quite skilful at leveraging the online nature of the program.Everything is achievable through dedication, constant support and a great mentor - that’s what Great Learning provided for me. </p>
+            </div>
+        </div>
+        <div class="story">
+            <img src="suresh.jpg" alt="Jane's Story">
+            <div class="story-content">
+                <h2>Suresh kumar</h2>
+                <p>My experience with the program was great. From the fundamentals of coding to advanced topics, the program gave me a complete understanding of Data Science. The personalised career assistance that I received was instrumental in shaping my career - from an Aerospace and Manufacturing background to Data Science. The program helped me transition into the Analytics industry, with a job at Mu Sigma.</p>
+            </div>
+        </div>
+        <div class="story">
+            <img src="pragti.jpg" alt="Jane's Story">
+            <div class="story-content">
+                <h2>Pragati Singh</h2>
+                <p>I was planning on getting a PG program from a reputed organisation which could help me build foundational skills in Data Science and Business Analytics and support me with career transition. That's when I joined this program. The video lectures delivered by the SMEs gave us foundational knowledge. </p>
+            </div>
+        </div>
+        <div class="story">
+            <img src="priya.jpg" alt="Jane's Story">
+            <div class="story-content">
+                <h2>Priya Rajput</h2>
+                <p>I completed my PG Program in Data Science and Business Analytics with Great Learning. I thoroughly liked the curriculum and how it was paced and planned across the schedule. Being a non-coder, I could understand the logic and concepts pretty well. The mentors were industry experts who helped me understand real-time implementation of the concepts. </p>
+            </div>
+        </div>
+        <!-- Add more stories as needed -->
+    </section>
+    <!-- success story end -->
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>   
+        </div>
+    </section>
+    
+
+    <!-- Footer section -->
+   
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: Kishorilalpsc21@gmail.com</p>
+                <p>Phone: +91 6260513326</p>
+                <p>Address: 32 Rajeev nagar Ayodhya By pass Bhopal 420566</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Think Learing All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
